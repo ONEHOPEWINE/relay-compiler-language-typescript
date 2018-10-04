@@ -282,7 +282,7 @@ function createVisitor(options: TypeGeneratorOptions) {
     customScalars: options.customScalars,
     enumsHasteModule: options.enumsHasteModule,
     existingFragmentNames: options.existingFragmentNames,
-    inputFieldWhiteList: options.inputFieldWhiteList,
+    optionalInputFields: options.optionalInputFields,
     relayRuntimeModule: options.relayRuntimeModule,
     usedEnums: {},
     usedFragments: new Set(),

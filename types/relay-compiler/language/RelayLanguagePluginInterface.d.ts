@@ -43,7 +43,7 @@ export interface TypeGeneratorOptions {
   readonly useHaste: boolean;
   readonly enumsHasteModule: string | null;
   readonly existingFragmentNames: Set<string>;
-  readonly inputFieldWhiteList: ReadonlyArray<string>;
+  readonly optionalInputFields: ReadonlyArray<string>;
   readonly relayRuntimeModule: string;
   readonly useSingleArtifactDirectory: boolean;
 }

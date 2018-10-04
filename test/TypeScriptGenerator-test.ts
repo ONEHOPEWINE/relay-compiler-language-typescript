@@ -21,7 +21,7 @@ describe('TypeScriptGenerator', () => {
           customScalars: {},
           enumsHasteModule: null,
           existingFragmentNames: new Set(['PhotoFragment']),
-          inputFieldWhiteList: [],
+          optionalInputFields: [],
           relayRuntimeModule: 'relay-runtime',
           useHaste: true,
         }),
